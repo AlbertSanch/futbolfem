@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Albert Sánchez Guiu">
+        <title>LIGA IBERDROLA</title>
+        <link rel="icon" href="../img/logoiberdrola.jpg">
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="../img/logoiberdrola.jpg" width="450" height="325">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../Index.html">INICI</a></li>
+                    <li><a href="./classif.html">CLASSIF</a></li>
+                    <li><a href="./resultats.html">RESULTATS</a></li>
+                    <li><a href="./galeria.html">GALERIA</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="./validaenquesta.php" method="POST">
+                <p>
+                  <label for="idEmail"><b>Email</b></label>
+                  <input type="email" id="idEmail" name="correu" placeholder="Introduce tu correo electrónico">
+                </p>
+                <p>
+                  <label for="user"><b>Nom complet</b></label>
+                  <input id="user" type="password" placeholder="Introdueix el teu nom complet" name="user" required>
+                </p>
+                <p>
+                    <label for="puntu"><b>Puntuació Web Info</b></label>
+                    <input id="puntu" name="puntuació" type="number" min="1" max="5" step="1">
+                </p>
+                <label for="user"><b>Valoració Global</b></label>
+                <select name="Valoració Global">
+                    <option value="Excelent" selected>Excelent</option>
+                    <option value="Notable">Notable</option>
+                    <option value="Bona">Bona</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Dolenta">Dolenta</option>
+                </select>
+                <p>
+                    <label for="user"><b>Color Ideal Tema</b></label>
+                    <input id="inColor1" name="color1" type="color" value="#FFFF00">
+                    <input id="inColor2" name="color2" type="color" value="#00FF00">
+                    <input id="inColor3" name="color3" type="color" value="#FF00FF">
+                </p>
+                <p>
+                    <label for="text"><b>Observacions</b></label>
+                    <input type="text" id="text" name="text" placeholder="Introdueix les teves observacions" autofocus size="50" maxlength="100">
+                </p>
+                <p>
+                  <button type="submit">Login</button>
+                </p>
+                <p>
+                    <input value="Reset de formulari!" type="reset">
+                </p>
+              </form>
+        </main>
+        <footer>
+            <nav>
+              <a href="https://twitter.com/laligaEN">Twitter</a>
+              <a href="https://www.facebook.com/LaLiga">Facebook</a>
+              <a href="https://www.youtube.com/user/laliga">Youtube</a>
+              <a href="https://www.instagram.com/laliga/">Instagram</a>
+            </nav>
+              <div class="copyright" align="center">
+                  <script>
+                      document.write('&copy;' );
+                      document.write(' 2020 - ');
+                      document.write(new Date().getFullYear());
+                      document.write(' Albert Sanchez - All Rights Reserved.');
+                      document.write('<br/>Last Updated : ');
+                      document.write(document.lastModified);
+                  </script>
+              </div>
+          </footer>
+    </body>
+</html>
