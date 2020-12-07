@@ -1,0 +1,55 @@
+header div img {
+    display: block;
+    margin: auto;
+}
+header nav a:hover{
+    background-color: rgb(204, 30, 111);
+}
+header nav a{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 6em;
+}
+header nav {
+    background-color: purple;
+    height: 1vw;
+    margin: 0vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+    margin-left: 13em;
+    margin: 0vw;
+    text-align: center;
+}
+body{
+    background-color: rgb(228, 120, 174);
+}
+footer nav a:hover{
+    background-color: rgb(204, 30, 111);
+}
+footer nav a {
+    text-decoration: none;
+    padding: 0,75em;
+    color: white;
+    border-radius: 10%;
+
+}
+footer nav {
+    background-color: purple;
+    height: 0.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+    margin: 0vw;
+    text-align: center;
+}
+footer div {
+    float: center;
+    text-decoration: none;
+    border: 1px;
+    color: white;
+}
+footer {
+    background-color: purple;
+}
